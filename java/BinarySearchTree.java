@@ -13,16 +13,16 @@ Space Complexity
     inserting, searching and deleting node : O(h) -> auxiliary space to store recursion stack.
 */
 
-class TreeNode{
-    int val;
-    TreeNode left,right;
+// class TreeNode{
+//     int val;
+//     TreeNode left,right;
 
-    public TreeNode(int val){
-        this.val = val;
-        this.left = this.right = null;
+//     public TreeNode(int val){
+//         this.val = val;
+//         this.left = this.right = null;
 
-    }
-}
+//     }
+// }
 public class BinarySearchTree{
     TreeNode root;
     public BinarySearchTree(){
